@@ -40,3 +40,10 @@ img {
   border-radius: 5px;
   background-color: gold;
 }
+
+.lol {
+  margin-top: 200px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
