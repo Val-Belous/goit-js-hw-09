@@ -16,3 +16,27 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.timer {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  font-size: 50px;
+}
+
+.value {
+  display: flex;
+  justify-content: center;
+}
+
+.flatpickr-input {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.field {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: gold;
+}
