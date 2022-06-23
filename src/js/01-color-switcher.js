@@ -8,7 +8,7 @@ const stopBtn = document.querySelector('button[data-stop]');
 
 startBtn.addEventListener('click', startClick);
 stopBtn.addEventListener('click', stopClick);
-
+stopBtn.disabled = true;
 function startClick() {
   startBtn.disabled = true;
   stopBtn.disabled = false;
